@@ -4,9 +4,7 @@
 
 Тесты расположены в папке src\test\java\apiAutotest\tests\playerController
 
-В файле TestConfig путь src\test\java\apiAutotest\config находится переменная THREAD_COUNT для задания количества потоков
-
-при параллельном запуске тестов с Data Provider
+В файле TestConfig путь src\test\java\apiAutotest\config находится переменная THREAD_COUNT для задания количества потоков при параллельном запуске тестов с Data Provider
 
 ### Стек технологий:
 
