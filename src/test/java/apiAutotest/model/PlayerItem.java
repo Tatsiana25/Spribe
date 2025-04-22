@@ -1,17 +1,28 @@
 package apiAutotest.model;
 
 public class PlayerItem {
-    private int age;
+    private Integer age;
     private String gender;
-    private long id;
+    private Long id;
     private String role;
     private String screenName;
 
-    public int getAge() {
+    public PlayerItem() {
+    }
+
+    public PlayerItem(Integer age, String gender, Long id, String role, String screenName) {
+        this.age = age;
+        this.gender = gender;
+        this.id = id;
+        this.role = role;
+        this.screenName = screenName;
+    }
+
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -23,11 +34,11 @@ public class PlayerItem {
         this.gender = gender;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

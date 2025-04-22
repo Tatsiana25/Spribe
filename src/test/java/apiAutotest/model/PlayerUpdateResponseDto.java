@@ -1,9 +1,9 @@
 package apiAutotest.model;
 
 public class PlayerUpdateResponseDto {
-    private int age;
+    private Integer age;
     private String gender;
-    private long id;
+    private Long id;
     private String login;
     private String role;
     private String screenName;
@@ -11,7 +11,7 @@ public class PlayerUpdateResponseDto {
     public PlayerUpdateResponseDto() {
     }
 
-    public PlayerUpdateResponseDto(int age, String gender, long id, String login, String role, String screenName) {
+    public PlayerUpdateResponseDto(Integer age, String gender, Long id, String login, String role, String screenName) {
         this.age = age;
         this.gender = gender;
         this.id = id;
@@ -20,11 +20,11 @@ public class PlayerUpdateResponseDto {
         this.screenName = screenName;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -36,11 +36,11 @@ public class PlayerUpdateResponseDto {
         this.gender = gender;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

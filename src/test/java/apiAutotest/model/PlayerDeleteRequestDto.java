@@ -1,17 +1,17 @@
 package apiAutotest.model;
 
 public class PlayerDeleteRequestDto {
-    private long playerId;
+    private Long playerId;
 
-    public PlayerDeleteRequestDto(long playerId) {
+    public PlayerDeleteRequestDto(Long playerId) {
         this.playerId = playerId;
     }
 
-    public long getPlayerId() {
+    public Long getPlayerId() {
         return playerId;
     }
 
-    public void setPlayerId(long playerId) {
+    public void setPlayerId(Long playerId) {
         this.playerId = playerId;
     }
 }
