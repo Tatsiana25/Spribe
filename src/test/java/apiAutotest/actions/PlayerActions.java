@@ -67,5 +67,4 @@ public class PlayerActions {
                 .when()
                 .patch("/player/update/{editor}/{id}");
     }
-
 }
