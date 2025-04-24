@@ -2,9 +2,9 @@
 
 Этот проект предназначен для автоматизированного тестирования REST API, используя Java, TestNG, RestAssured и Allure для отчетности.
 
-Тесты расположены в папке src\test\java\apiAutotest\tests\playerController
+Тесты расположены в папке src\test\java\api\tests\playerController
 
-В файле TestConfig путь src\test\java\apiAutotest\config находится переменная THREAD_COUNT для задания количества потоков при параллельном запуске тестов с Data Provider
+В файле TestConfig путь src\test\java\api\config находится переменная THREAD_COUNT для задания количества потоков при параллельном запуске тестов с Data Provider
 
 ### Стек технологий:
 

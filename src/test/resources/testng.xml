@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite name="AllTestsSuite" parallel="classes" thread-count="3">
+    <test name="PlayerControllerTests">
+        <packages>
+            <package name="apiAutotests.playerController.create.roleModel" />
+            <package name="apiAutotests.playerController.create.validation" />
+            <package name="apiAutotests.playerController.delete.roleModel" />
+            <package name="apiAutotests.playerController.get" />
+            <package name="apiAutotests.playerController.update.roleModel" />
+            <package name="apiAutotests.playerController.update.validation" />
+        </packages>
+    </test>
+</suite>
