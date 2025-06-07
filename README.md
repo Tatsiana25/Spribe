@@ -2,11 +2,9 @@
 
 Этот проект предназначен для автоматизированного тестирования REST API, используя Java, TestNG, RestAssured и Allure для отчетности.
 
-Тесты расположены в папке src\test\java\api\tests\playerController
+Тесты расположены в папке src\test\java\apiAutotests\playerController
 
-В файле TestConfig путь src\test\java\api\config находится переменная THREAD_COUNT для задания количества потоков при параллельном запуске тестов с Data Provider
-
-В исправленной версии параллелизация настроена через testng.xml, который находится в src\test\resources
+Параллелизация настроена через testng.xml, который находится в src\test\resources
 
 ### Стек технологий:
 
@@ -25,6 +23,7 @@ Allure – генерация отчетов тестирования.
 ### Для запуска проекта необходимо:
 
 Установить Maven и Java 11.
+
 
 Запустить тесты: mvn clean test
 
